@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		28B69B4E2AF0C04C00B7AB8E /* Hallowedemy2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B4D2AF0C04C00B7AB8E /* Hallowedemy2App.swift */; };
-		28B69B502AF0C04C00B7AB8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B4F2AF0C04C00B7AB8E /* ContentView.swift */; };
+		28B69B502AF0C04C00B7AB8E /* DickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B4F2AF0C04C00B7AB8E /* DickView.swift */; };
 		28B69B522AF0C04E00B7AB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B69B512AF0C04E00B7AB8E /* Assets.xcassets */; };
 		28B69B552AF0C04E00B7AB8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B69B542AF0C04E00B7AB8E /* Preview Assets.xcassets */; };
 		28B69B5F2AF0C04E00B7AB8E /* Hallowedemy2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B5E2AF0C04E00B7AB8E /* Hallowedemy2Tests.swift */; };
 		28B69B692AF0C04E00B7AB8E /* Hallowedemy2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B682AF0C04E00B7AB8E /* Hallowedemy2UITests.swift */; };
 		28B69B6B2AF0C04E00B7AB8E /* Hallowedemy2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B6A2AF0C04E00B7AB8E /* Hallowedemy2UITestsLaunchTests.swift */; };
+		28B69B792AF0C07100B7AB8E /* CodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B782AF0C07100B7AB8E /* CodeModel.swift */; };
+		28B69B7D2AF0C1FD00B7AB8E /* CodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B7C2AF0C1FD00B7AB8E /* CodeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		28B69B4A2AF0C04C00B7AB8E /* Hallowedemy2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hallowedemy2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B69B4D2AF0C04C00B7AB8E /* Hallowedemy2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallowedemy2App.swift; sourceTree = "<group>"; };
-		28B69B4F2AF0C04C00B7AB8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28B69B4F2AF0C04C00B7AB8E /* DickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DickView.swift; sourceTree = "<group>"; };
 		28B69B512AF0C04E00B7AB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B69B542AF0C04E00B7AB8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28B69B5A2AF0C04E00B7AB8E /* Hallowedemy2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hallowedemy2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		28B69B642AF0C04E00B7AB8E /* Hallowedemy2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hallowedemy2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B69B682AF0C04E00B7AB8E /* Hallowedemy2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallowedemy2UITests.swift; sourceTree = "<group>"; };
 		28B69B6A2AF0C04E00B7AB8E /* Hallowedemy2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallowedemy2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28B69B782AF0C07100B7AB8E /* CodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeModel.swift; sourceTree = "<group>"; };
+		28B69B7C2AF0C1FD00B7AB8E /* CodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,8 @@
 		28B69B4C2AF0C04C00B7AB8E /* Hallowedemy2 */ = {
 			isa = PBXGroup;
 			children = (
+				28B69B7E2AF0C54D00B7AB8E /* Code */,
 				28B69B4D2AF0C04C00B7AB8E /* Hallowedemy2App.swift */,
-				28B69B4F2AF0C04C00B7AB8E /* ContentView.swift */,
 				28B69B512AF0C04E00B7AB8E /* Assets.xcassets */,
 				28B69B532AF0C04E00B7AB8E /* Preview Content */,
 			);
@@ -125,6 +129,16 @@
 				28B69B6A2AF0C04E00B7AB8E /* Hallowedemy2UITestsLaunchTests.swift */,
 			);
 			path = Hallowedemy2UITests;
+			sourceTree = "<group>";
+		};
+		28B69B7E2AF0C54D00B7AB8E /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				28B69B7C2AF0C1FD00B7AB8E /* CodeViewModel.swift */,
+				28B69B782AF0C07100B7AB8E /* CodeModel.swift */,
+				28B69B4F2AF0C04C00B7AB8E /* DickView.swift */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B69B502AF0C04C00B7AB8E /* ContentView.swift in Sources */,
+				28B69B502AF0C04C00B7AB8E /* DickView.swift in Sources */,
+				28B69B7D2AF0C1FD00B7AB8E /* CodeViewModel.swift in Sources */,
+				28B69B792AF0C07100B7AB8E /* CodeModel.swift in Sources */,
 				28B69B4E2AF0C04C00B7AB8E /* Hallowedemy2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
