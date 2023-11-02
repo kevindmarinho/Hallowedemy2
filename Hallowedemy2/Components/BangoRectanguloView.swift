@@ -1,8 +1,8 @@
 //
-//  BangoRectangleView.swift
-//  Sant Academy
+//  BangoView.swift
+//  Hallowedemy2
 //
-//  Created by Iago Ramos on 15/12/22.
+//  Created by kevin marinho on 02/11/23.
 //
 
 import SwiftUI
