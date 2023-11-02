@@ -31,6 +31,7 @@
 		67FC6D6D2AF4679A0014919D /* RaffleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC6D6C2AF4679A0014919D /* RaffleViewModel.swift */; };
 		67FC6D702AF468B90014919D /* RaffleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC6D6F2AF468B90014919D /* RaffleButton.swift */; };
 		67FC6D722AF468DC0014919D /* RaffledNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC6D712AF468DC0014919D /* RaffledNumbers.swift */; };
+		67FC6D762AF46B1B0014919D /* Sniglet-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0080D1502AF39BE1004347B1 /* Sniglet-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,7 @@
 		28B69B412AF0C04C00B7AB8E = {
 			isa = PBXGroup;
 			children = (
+				0080D14F2AF39BCF004347B1 /* Fonts */,
 				28B69B4C2AF0C04C00B7AB8E /* Hallowedemy2 */,
 				28B69B5D2AF0C04E00B7AB8E /* Hallowedemy2Tests */,
 				28B69B672AF0C04E00B7AB8E /* Hallowedemy2UITests */,
@@ -176,7 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				0080D1522AF39BF2004347B1 /* Info.plist */,
-				0080D14F2AF39BCF004347B1 /* Fonts */,
 				28808AF92AF40156004369E2 /* ViewModel */,
 				0080D14E2AF38C1B004347B1 /* View */,
 				28808AF22AF362A2004369E2 /* Components */,
@@ -427,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6784E0462AF2EE04001B8B0A /* Preview Assets.xcassets in Resources */,
+				67FC6D762AF46B1B0014919D /* Sniglet-Regular.ttf in Resources */,
 				6784E0432AF2EE04001B8B0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
