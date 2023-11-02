@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0080D1432AF36EA3004347B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080D1422AF36EA3004347B1 /* HomeView.swift */; };
 		28B69B4E2AF0C04C00B7AB8E /* Hallowedemy2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B4D2AF0C04C00B7AB8E /* Hallowedemy2App.swift */; };
 		28B69B502AF0C04C00B7AB8E /* DickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B4F2AF0C04C00B7AB8E /* DickView.swift */; };
 		28B69B522AF0C04E00B7AB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B69B512AF0C04E00B7AB8E /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0080D1422AF36EA3004347B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		28B69B4A2AF0C04C00B7AB8E /* Hallowedemy2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hallowedemy2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B69B4D2AF0C04C00B7AB8E /* Hallowedemy2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallowedemy2App.swift; sourceTree = "<group>"; };
 		28B69B4F2AF0C04C00B7AB8E /* DickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DickView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				28B69B7C2AF0C1FD00B7AB8E /* CodeViewModel.swift */,
 				28B69B782AF0C07100B7AB8E /* CodeModel.swift */,
 				28B69B4F2AF0C04C00B7AB8E /* DickView.swift */,
+				0080D1422AF36EA3004347B1 /* HomeView.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				28B69B502AF0C04C00B7AB8E /* DickView.swift in Sources */,
 				28B69B7D2AF0C1FD00B7AB8E /* CodeViewModel.swift in Sources */,
 				28B69B792AF0C07100B7AB8E /* CodeModel.swift in Sources */,
+				0080D1432AF36EA3004347B1 /* HomeView.swift in Sources */,
 				28B69B4E2AF0C04C00B7AB8E /* Hallowedemy2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hallowedemy2/Preview Content\"";
-				DEVELOPMENT_TEAM = XJ57BXJG95;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -467,7 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hallowedemy2/Preview Content\"";
-				DEVELOPMENT_TEAM = XJ57BXJG95;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
