@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0080D1432AF36EA3004347B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080D1422AF36EA3004347B1 /* HomeView.swift */; };
 		0080D14D2AF3888D004347B1 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080D14C2AF3888D004347B1 /* SplashView.swift */; };
+		0080D1512AF39BE1004347B1 /* Sniglet-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0080D1502AF39BE1004347B1 /* Sniglet-Regular.ttf */; };
 		28808AF42AF36359004369E2 /* BangoRectanguloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28808AF32AF36359004369E2 /* BangoRectanguloView.swift */; };
 		28808AF62AF36F79004369E2 /* BangoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28808AF52AF36F79004369E2 /* BangoViewModel.swift */; };
 		28808AF82AF37037004369E2 /* BangoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28808AF72AF37037004369E2 /* BangoView.swift */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		0080D1422AF36EA3004347B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0080D14C2AF3888D004347B1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0080D1502AF39BE1004347B1 /* Sniglet-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sniglet-Regular.ttf"; sourceTree = "<group>"; };
+		0080D1522AF39BF2004347B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28808AF32AF36359004369E2 /* BangoRectanguloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangoRectanguloView.swift; sourceTree = "<group>"; };
 		28808AF52AF36F79004369E2 /* BangoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangoViewModel.swift; sourceTree = "<group>"; };
 		28808AF72AF37037004369E2 /* BangoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangoView.swift; sourceTree = "<group>"; };
@@ -95,6 +98,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		0080D14F2AF39BCF004347B1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0080D1502AF39BE1004347B1 /* Sniglet-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		28808AF22AF362A2004369E2 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +137,8 @@
 		28B69B4C2AF0C04C00B7AB8E /* Hallowedemy2 */ = {
 			isa = PBXGroup;
 			children = (
+				0080D1522AF39BF2004347B1 /* Info.plist */,
+				0080D14F2AF39BCF004347B1 /* Fonts */,
 				0080D14E2AF38C1B004347B1 /* View */,
 				28808AF22AF362A2004369E2 /* Components */,
 				28B69B7E2AF0C54D00B7AB8E /* Code */,
@@ -277,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B69B552AF0C04E00B7AB8E /* Preview Assets.xcassets in Resources */,
+				0080D1512AF39BE1004347B1 /* Sniglet-Regular.ttf in Resources */,
 				28B69B522AF0C04E00B7AB8E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +491,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hallowedemy2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -506,6 +521,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hallowedemy2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
