@@ -16,10 +16,13 @@ class BangoViewModel: ObservableObject{
         self.resetBango()
     }
     
-    func updateRecs(_ key: String, _ pos: Int){
-        selectedRecs[key]![pos].toggle()
-        recsRemaining -= selectedRecs[key]![pos] ? 1 : -1
+    func updateRecs(_ key: String, _ pos: Int) {
+        guard var selectedRec = selectedRecs[key] else { return }
+        selectedRec[pos].toggle()
+        selectedRecs[key] = selectedRec
+        recsRemaining += selectedRec[pos] ? -1 : 1
     }
+
     
     func resetBango(){
         self.card = [
@@ -42,35 +45,22 @@ class BangoViewModel: ObservableObject{
         self.recsRemaining = 24
     }
     
-    private func getColumn(_ min: Int, _ quant: Int) -> [String]{
+    private func getColumn(_ min: Int, _ quant: Int) -> [String] {
         let numbers = self.getColumnNumbers(min, quant)
-        var formattedNumbers: [String] = []
-        
-        for i in 0..<numbers.count{
-            formattedNumbers.append(String(format: "%02d", numbers[i]))
-        }
-        
-        if(quant == 4){
+        var formattedNumbers = numbers.map { String(format: "%02d", $0) }
+        if quant == 4 {
             formattedNumbers.insert("", at: 2)
         }
-        
         return formattedNumbers
     }
     
-    private func getColumnNumbers(_ min: Int, _ quant: Int) -> [Int]{
-        var numbers: [Int] = []
-        
-        for _ in 0..<quant{
-            var randomNumber = numbers.isEmpty ? -1 : numbers[0]
-            
-            while(randomNumber == -1 || numbers.contains(randomNumber)){
-                randomNumber = self.randomNumber(min)
-            }
-            
-            numbers.append(randomNumber)
+    private func getColumnNumbers(_ min: Int, _ quant: Int) -> [Int] {
+        var numbers = Set<Int>()
+        while numbers.count < quant {
+            let randomNumber = self.randomNumber(min)
+            numbers.insert(randomNumber)
         }
-        
-        return numbers
+        return Array(numbers).sorted()
     }
     
     private func randomNumber(_ min: Int) -> Int{

@@ -12,7 +12,6 @@ import SwiftUI
 struct BangoView: View {
     @Environment(\.presentationMode) var presentationMode
     @ObservedObject var viewModel = BangoViewModel()
-    @State var confeteBool = false
     
     let rows = [
         GridItem(.fixed(50), spacing: 4),
