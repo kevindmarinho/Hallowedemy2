@@ -17,10 +17,18 @@ struct HomeView: View {
             
             VStack{
                 Image("title")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(.horizontal, 80)
                     .padding(.top, 100)
+               
                 Image("ghost")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(.horizontal, 100)
                     .padding(.top, 180)
                 
+                Spacer()
                 
                 NavigationLink {
                     BangoView()
@@ -33,9 +41,10 @@ struct HomeView: View {
                             .font(.system(size: 20))
                             .foregroundStyle(.white)
                     }
+                    .frame(height: 56)
                     .padding(.horizontal, 25)
+                    .padding(.bottom, 100)
                 }
-                .padding(.vertical, 85)
             }
         }
     }

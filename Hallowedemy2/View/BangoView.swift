@@ -52,7 +52,7 @@ struct BangoView: View {
                     .padding(.leading, 20)
                     Spacer()
                 }
-                .padding(.top, 72)
+                .padding(.top, 90)
                 .padding(.bottom, 48)
                 
                 LazyHGrid(rows: rows, spacing: 4) {
