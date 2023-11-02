@@ -23,7 +23,7 @@ struct HomeView: View {
                 
                 
                 NavigationLink {
-                    Text("DickView")
+                    BangoView()
                 } label: {
                     ZStack{
                         RoundedRectangle(cornerRadius: 40)
