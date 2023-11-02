@@ -11,7 +11,9 @@ import SwiftUI
 struct Hallowedemy2App: App {
     var body: some Scene {
         WindowGroup {
-            DickView()
+            NavigationView{
+                SplashView()
+            }
         }
     }
 }
