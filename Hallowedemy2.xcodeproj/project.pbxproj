@@ -16,6 +16,13 @@
 		28B69B6B2AF0C04E00B7AB8E /* Hallowedemy2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B6A2AF0C04E00B7AB8E /* Hallowedemy2UITestsLaunchTests.swift */; };
 		28B69B792AF0C07100B7AB8E /* CodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B782AF0C07100B7AB8E /* CodeModel.swift */; };
 		28B69B7D2AF0C1FD00B7AB8E /* CodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B7C2AF0C1FD00B7AB8E /* CodeViewModel.swift */; };
+		6784E03F2AF2EE02001B8B0A /* HallowedemyTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6784E03E2AF2EE02001B8B0A /* HallowedemyTVApp.swift */; };
+		6784E0412AF2EE02001B8B0A /* RaffleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6784E0402AF2EE02001B8B0A /* RaffleView.swift */; };
+		6784E0432AF2EE04001B8B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6784E0422AF2EE04001B8B0A /* Assets.xcassets */; };
+		6784E0462AF2EE04001B8B0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6784E0452AF2EE04001B8B0A /* Preview Assets.xcassets */; };
+		67FC6D6D2AF4679A0014919D /* RaffleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC6D6C2AF4679A0014919D /* RaffleViewModel.swift */; };
+		67FC6D702AF468B90014919D /* RaffleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC6D6F2AF468B90014919D /* RaffleButton.swift */; };
+		67FC6D722AF468DC0014919D /* RaffledNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC6D712AF468DC0014919D /* RaffledNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,14 @@
 		28B69B6A2AF0C04E00B7AB8E /* Hallowedemy2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallowedemy2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		28B69B782AF0C07100B7AB8E /* CodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeModel.swift; sourceTree = "<group>"; };
 		28B69B7C2AF0C1FD00B7AB8E /* CodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewModel.swift; sourceTree = "<group>"; };
+		6784E03C2AF2EE02001B8B0A /* HallowedemyTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallowedemyTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6784E03E2AF2EE02001B8B0A /* HallowedemyTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallowedemyTVApp.swift; sourceTree = "<group>"; };
+		6784E0402AF2EE02001B8B0A /* RaffleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleView.swift; sourceTree = "<group>"; };
+		6784E0422AF2EE04001B8B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6784E0452AF2EE04001B8B0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67FC6D6C2AF4679A0014919D /* RaffleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleViewModel.swift; sourceTree = "<group>"; };
+		67FC6D6F2AF468B90014919D /* RaffleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleButton.swift; sourceTree = "<group>"; };
+		67FC6D712AF468DC0014919D /* RaffledNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffledNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +87,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6784E0392AF2EE02001B8B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,6 +103,7 @@
 				28B69B4C2AF0C04C00B7AB8E /* Hallowedemy2 */,
 				28B69B5D2AF0C04E00B7AB8E /* Hallowedemy2Tests */,
 				28B69B672AF0C04E00B7AB8E /* Hallowedemy2UITests */,
+				6784E03D2AF2EE02001B8B0A /* HallowedemyTV */,
 				28B69B4B2AF0C04C00B7AB8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +114,7 @@
 				28B69B4A2AF0C04C00B7AB8E /* Hallowedemy2.app */,
 				28B69B5A2AF0C04E00B7AB8E /* Hallowedemy2Tests.xctest */,
 				28B69B642AF0C04E00B7AB8E /* Hallowedemy2UITests.xctest */,
+				6784E03C2AF2EE02001B8B0A /* HallowedemyTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +163,36 @@
 				28B69B4F2AF0C04C00B7AB8E /* DickView.swift */,
 			);
 			path = Code;
+			sourceTree = "<group>";
+		};
+		6784E03D2AF2EE02001B8B0A /* HallowedemyTV */ = {
+			isa = PBXGroup;
+			children = (
+				67FC6D6E2AF468AA0014919D /* Components */,
+				6784E03E2AF2EE02001B8B0A /* HallowedemyTVApp.swift */,
+				6784E0402AF2EE02001B8B0A /* RaffleView.swift */,
+				6784E0422AF2EE04001B8B0A /* Assets.xcassets */,
+				6784E0442AF2EE04001B8B0A /* Preview Content */,
+				67FC6D6C2AF4679A0014919D /* RaffleViewModel.swift */,
+			);
+			path = HallowedemyTV;
+			sourceTree = "<group>";
+		};
+		6784E0442AF2EE04001B8B0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6784E0452AF2EE04001B8B0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67FC6D6E2AF468AA0014919D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				67FC6D6F2AF468B90014919D /* RaffleButton.swift */,
+				67FC6D712AF468DC0014919D /* RaffledNumbers.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +251,23 @@
 			productReference = 28B69B642AF0C04E00B7AB8E /* Hallowedemy2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6784E03B2AF2EE02001B8B0A /* HallowedemyTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6784E0492AF2EE04001B8B0A /* Build configuration list for PBXNativeTarget "HallowedemyTV" */;
+			buildPhases = (
+				6784E0382AF2EE02001B8B0A /* Sources */,
+				6784E0392AF2EE02001B8B0A /* Frameworks */,
+				6784E03A2AF2EE02001B8B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HallowedemyTV;
+			productName = HallowedemyTV;
+			productReference = 6784E03C2AF2EE02001B8B0A /* HallowedemyTV.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,6 +289,9 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 28B69B492AF0C04C00B7AB8E;
 					};
+					6784E03B2AF2EE02001B8B0A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 28B69B452AF0C04C00B7AB8E /* Build configuration list for PBXProject "Hallowedemy2" */;
@@ -236,6 +310,7 @@
 				28B69B492AF0C04C00B7AB8E /* Hallowedemy2 */,
 				28B69B592AF0C04E00B7AB8E /* Hallowedemy2Tests */,
 				28B69B632AF0C04E00B7AB8E /* Hallowedemy2UITests */,
+				6784E03B2AF2EE02001B8B0A /* HallowedemyTV */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +336,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6784E03A2AF2EE02001B8B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6784E0462AF2EE04001B8B0A /* Preview Assets.xcassets in Resources */,
+				6784E0432AF2EE04001B8B0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +376,18 @@
 			files = (
 				28B69B692AF0C04E00B7AB8E /* Hallowedemy2UITests.swift in Sources */,
 				28B69B6B2AF0C04E00B7AB8E /* Hallowedemy2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6784E0382AF2EE02001B8B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FC6D722AF468DC0014919D /* RaffledNumbers.swift in Sources */,
+				6784E0412AF2EE02001B8B0A /* RaffleView.swift in Sources */,
+				67FC6D702AF468B90014919D /* RaffleButton.swift in Sources */,
+				67FC6D6D2AF4679A0014919D /* RaffleViewModel.swift in Sources */,
+				6784E03F2AF2EE02001B8B0A /* HallowedemyTVApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +534,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hallowedemy2/Preview Content\"";
-				DEVELOPMENT_TEAM = XJ57BXJG95;
+				DEVELOPMENT_TEAM = A7SRF7ZP35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -564,6 +660,62 @@
 			};
 			name = Release;
 		};
+		6784E0472AF2EE04001B8B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HallowedemyTV/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SRF7ZP35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iago.HallowedemyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		6784E0482AF2EE04001B8B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HallowedemyTV/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SRF7ZP35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iago.HallowedemyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,6 +751,15 @@
 			buildConfigurations = (
 				28B69B752AF0C04E00B7AB8E /* Debug */,
 				28B69B762AF0C04E00B7AB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6784E0492AF2EE04001B8B0A /* Build configuration list for PBXNativeTarget "HallowedemyTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6784E0472AF2EE04001B8B0A /* Debug */,
+				6784E0482AF2EE04001B8B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
