@@ -13,6 +13,8 @@
 		28808AF42AF36359004369E2 /* BangoRectanguloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28808AF32AF36359004369E2 /* BangoRectanguloView.swift */; };
 		28808AF62AF36F79004369E2 /* BangoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28808AF52AF36F79004369E2 /* BangoViewModel.swift */; };
 		28808AF82AF37037004369E2 /* BangoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28808AF72AF37037004369E2 /* BangoView.swift */; };
+		28808AFB2AF40180004369E2 /* EffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28808AFA2AF40180004369E2 /* EffectViewModel.swift */; };
+		28808AFD2AF40212004369E2 /* EffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28808AFC2AF40212004369E2 /* EffectView.swift */; };
 		28B69B4E2AF0C04C00B7AB8E /* Hallowedemy2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B4D2AF0C04C00B7AB8E /* Hallowedemy2App.swift */; };
 		28B69B502AF0C04C00B7AB8E /* DickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B69B4F2AF0C04C00B7AB8E /* DickView.swift */; };
 		28B69B522AF0C04E00B7AB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B69B512AF0C04E00B7AB8E /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		28808AF32AF36359004369E2 /* BangoRectanguloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangoRectanguloView.swift; sourceTree = "<group>"; };
 		28808AF52AF36F79004369E2 /* BangoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangoViewModel.swift; sourceTree = "<group>"; };
 		28808AF72AF37037004369E2 /* BangoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangoView.swift; sourceTree = "<group>"; };
+		28808AFA2AF40180004369E2 /* EffectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectViewModel.swift; sourceTree = "<group>"; };
+		28808AFC2AF40212004369E2 /* EffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectView.swift; sourceTree = "<group>"; };
 		28B69B4A2AF0C04C00B7AB8E /* Hallowedemy2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hallowedemy2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B69B4D2AF0C04C00B7AB8E /* Hallowedemy2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallowedemy2App.swift; sourceTree = "<group>"; };
 		28B69B4F2AF0C04C00B7AB8E /* DickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DickView.swift; sourceTree = "<group>"; };
@@ -110,8 +114,18 @@
 			isa = PBXGroup;
 			children = (
 				28808AF32AF36359004369E2 /* BangoRectanguloView.swift */,
+				28808AFC2AF40212004369E2 /* EffectView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		28808AF92AF40156004369E2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28808AF52AF36F79004369E2 /* BangoViewModel.swift */,
+				28808AFA2AF40180004369E2 /* EffectViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		28B69B412AF0C04C00B7AB8E = {
@@ -139,13 +153,13 @@
 			children = (
 				0080D1522AF39BF2004347B1 /* Info.plist */,
 				0080D14F2AF39BCF004347B1 /* Fonts */,
+				28808AF92AF40156004369E2 /* ViewModel */,
 				0080D14E2AF38C1B004347B1 /* View */,
 				28808AF22AF362A2004369E2 /* Components */,
 				28B69B7E2AF0C54D00B7AB8E /* Code */,
 				28B69B4D2AF0C04C00B7AB8E /* Hallowedemy2App.swift */,
 				28B69B512AF0C04E00B7AB8E /* Assets.xcassets */,
 				28B69B532AF0C04E00B7AB8E /* Preview Content */,
-				28808AF52AF36F79004369E2 /* BangoViewModel.swift */,
 			);
 			path = Hallowedemy2;
 			sourceTree = "<group>";
@@ -317,7 +331,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28808AF82AF37037004369E2 /* BangoView.swift in Sources */,
+				28808AFB2AF40180004369E2 /* EffectViewModel.swift in Sources */,
 				28B69B502AF0C04C00B7AB8E /* DickView.swift in Sources */,
+				28808AFD2AF40212004369E2 /* EffectView.swift in Sources */,
 				28B69B7D2AF0C1FD00B7AB8E /* CodeViewModel.swift in Sources */,
 				28808AF42AF36359004369E2 /* BangoRectanguloView.swift in Sources */,
 				28808AF62AF36F79004369E2 /* BangoViewModel.swift in Sources */,

@@ -92,6 +92,9 @@ struct BangoView: View {
                     }
                 }
                 
+                if viewModel.recsRemaining == 0 {
+                    EffectView()
+                }
                 
                 Text("Restam \(String(viewModel.recsRemaining)) pedras para você ganhar o prêmio!")
                     .font(Font.custom("Sniglet-Regular", size: 24))
