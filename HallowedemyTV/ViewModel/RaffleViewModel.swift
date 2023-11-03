@@ -30,15 +30,15 @@ final class RaffleViewModel: ObservableObject {
     func getColumn(for number: Int) -> String? {
         switch number {
         case 1...15:
-            return "B"
+            return "b"
         case 16...30:
-            return "A"
+            return "a"
         case 31...45:
-            return "N"
+            return "n"
         case 46...65:
-            return "G"
+            return "g"
         case 66...75:
-            return "O"
+            return "o"
         default:
             return nil
         }

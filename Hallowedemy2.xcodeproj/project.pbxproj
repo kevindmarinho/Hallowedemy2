@@ -31,7 +31,7 @@
 		67FC6D6D2AF4679A0014919D /* RaffleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC6D6C2AF4679A0014919D /* RaffleViewModel.swift */; };
 		67FC6D702AF468B90014919D /* RaffleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC6D6F2AF468B90014919D /* RaffleButton.swift */; };
 		67FC6D722AF468DC0014919D /* RaffledNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC6D712AF468DC0014919D /* RaffledNumbers.swift */; };
-		67FC6D762AF46B1B0014919D /* Sniglet-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0080D1502AF39BE1004347B1 /* Sniglet-Regular.ttf */; };
+		67FC6D7F2AF46DAD0014919D /* Sniglet-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0080D1502AF39BE1004347B1 /* Sniglet-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +81,7 @@
 		67FC6D6C2AF4679A0014919D /* RaffleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleViewModel.swift; sourceTree = "<group>"; };
 		67FC6D6F2AF468B90014919D /* RaffleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleButton.swift; sourceTree = "<group>"; };
 		67FC6D712AF468DC0014919D /* RaffledNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffledNumbers.swift; sourceTree = "<group>"; };
+		67FC6D802AF46E9F0014919D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +228,7 @@
 		6784E03D2AF2EE02001B8B0A /* HallowedemyTV */ = {
 			isa = PBXGroup;
 			children = (
+				67FC6D802AF46E9F0014919D /* Info.plist */,
 				67FC6D752AF46AE70014919D /* Resources */,
 				67FC6D742AF46AD40014919D /* ViewModel */,
 				67FC6D732AF46AD00014919D /* View */,
@@ -428,7 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6784E0462AF2EE04001B8B0A /* Preview Assets.xcassets in Resources */,
-				67FC6D762AF46B1B0014919D /* Sniglet-Regular.ttf in Resources */,
+				67FC6D7F2AF46DAD0014919D /* Sniglet-Regular.ttf in Resources */,
 				6784E0432AF2EE04001B8B0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -765,6 +767,7 @@
 				DEVELOPMENT_TEAM = A7SRF7ZP35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HallowedemyTV/Info.plist;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -793,6 +796,7 @@
 				DEVELOPMENT_TEAM = A7SRF7ZP35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HallowedemyTV/Info.plist;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (

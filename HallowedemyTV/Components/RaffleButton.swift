@@ -14,6 +14,7 @@ struct RaffleButton: View {
     var body: some View {
         VStack {
             Text("Bola sorteada")
+                .font(.custom("Sniglet-Regular", size: 40))
                 .foregroundStyle(.raffledBall)
                 .opacity(viewModel.lastRaffled == nil ? 0 : 1)
             
@@ -29,9 +30,10 @@ struct RaffleButton: View {
                         .fill(.bangoLightOrange)
                         .frame(width: 210, height: 210)
                     
-                    Text(viewModel.lastRaffledWithColumn ?? "Start")
+                    let isStart = viewModel.lastRaffledWithColumn == nil
+                    Text(viewModel.lastRaffledWithColumn ?? "Começar")
                         .foregroundStyle(.white)
-                        .font(.title)
+                        .font(.custom("Sniglet-Regular", size: isStart ? 45 : 80))
                 }
             }
             .buttonStyle(.borderless)

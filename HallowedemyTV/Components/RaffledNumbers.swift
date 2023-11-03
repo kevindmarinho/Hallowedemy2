@@ -23,6 +23,7 @@ struct RaffledNumbers: View {
                     
                     Text(number.description)
                         .foregroundStyle(wasRaffled ? .bangoOrange : .nonRaffledBallText)
+                        .font(.custom("Sniglet-Regular", size: 30))
                 }
                 .frame(width: 52, height: 52)
             }
