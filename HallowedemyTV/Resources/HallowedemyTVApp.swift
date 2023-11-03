@@ -10,11 +10,16 @@ import SwiftUI
 @main
 struct HallowedemyTVApp: App {
     @StateObject var raffleViewModel = RaffleViewModel()
+    @State var isSplashScreen = true
     
     var body: some Scene {
         WindowGroup {
-            RaffleView()
-                .environmentObject(raffleViewModel)
+            if isSplashScreen {
+                SplashScreen(isActive: $isSplashScreen)
+            } else {
+                RaffleView()
+                    .environmentObject(raffleViewModel)
+            }
         }
     }
 }
